@@ -1,0 +1,26 @@
+.about-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #9932CC;
+}
+.about-text {
+  font-size: 5em;
+}
+.about-text1 {
+  font-size: 25px;
+}
+.about-navlink {
+  top: 50px;
+  left: 50px;
+  color: #208970;
+  position: absolute;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  text-decoration: none;
+  background-color: #000000;
+}

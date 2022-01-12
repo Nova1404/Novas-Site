@@ -1,0 +1,20 @@
+.galaxy-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://i.guim.co.uk/img/media/bfd1fab107e1ad17ed62c23ea3091dff29f19bc8/0_1_1459_875/master/1459.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=a2a1aac0600a6ac6d5ea58983bd9eb25');
+}
+.galaxy-navlink {
+  top: 50px;
+  left: 50px;
+  color: #208970;
+  position: absolute;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  text-decoration: none;
+  background-color: #000000;
+}

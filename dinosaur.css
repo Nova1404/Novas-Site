@@ -1,0 +1,36 @@
+.dinosaur-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.dinosaur-navlink {
+  top: 50px;
+  left: 50px;
+  color: #208970;
+  position: absolute;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  text-decoration: none;
+  background-color: #000000;
+}
+.dinosaur-image {
+  width: 612px;
+  height: 505px;
+  object-fit: cover;
+}
+@media(max-width: 767px) {
+  .dinosaur-image {
+    width: 523px;
+    height: 421px;
+  }
+}
+@media(max-width: 479px) {
+  .dinosaur-image {
+    width: 454px;
+    height: 412px;
+  }
+}
